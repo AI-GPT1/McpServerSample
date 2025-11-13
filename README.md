@@ -2,7 +2,8 @@
 
 ## 项目介绍
 
-McpServerSample 是一个基于 Spring Boot 和 Spring AI 的 Model Context Protocol (MCP) 服务器示例项目。该项目主要提供天气服务功能，通过集成官方天气 API (weather.gov) 实现了以下核心功能：
+McpServerSample 是一个基于 Spring Boot 和 Spring AI 的 Model Context Protocol (MCP) 服务器示例项目。
+该项目主要提供天气服务功能，通过集成官方天气 API (weather.gov) 实现了以下核心功能：
 
 - 根据经纬度获取指定位置的天气预报信息
 - 根据美国州代码获取特定地区的天气警报信息
@@ -51,7 +52,7 @@ McpServerSample/
    - 返回：指定位置的详细天气预报信息
 
 2. **getAlerts**
-   - 功能：获取美国州的天气警报
+   - 功能：获取美国某个州的天气警报
    - 参数：
      - state: 两字母的美国州代码（例如 CA, NY）
    - 返回：指定州的天气警报信息
@@ -62,7 +63,7 @@ McpServerSample/
 
 ## 项目部署运行步骤
 
-### 前提条件
+### 依赖环境条件
 
 - JDK 17 或更高版本
 - Maven 3.6.0 或更高版本
